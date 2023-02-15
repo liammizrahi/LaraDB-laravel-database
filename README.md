@@ -36,7 +36,7 @@ Every file contains two parts, the coulmns (structure) and the data itself.
 ```
 
 ### Installation
-You need to clone the git to your local machine and run these commands:
+You need to clone the repository to your local machine and run these commands:
 ```sh
 cd LaraDB-laravel-database
 composer install
@@ -45,3 +45,6 @@ php artisan key:generate
 
 ### Testing
 You can access the root route `localhost:8000` in order to see the output data, the functionallity is inside the `HandleController`
+```sh
+php artisan serve
+```
